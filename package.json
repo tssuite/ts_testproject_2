@@ -1,0 +1,52 @@
+{
+  "name": "@tssuite/ts_testproject_2",
+  "version": "0.0.1",
+  "description": "tssuite ts_testproject_2 — gg one E2E test project",
+  "homepage": "https://github.com/tssuite/ts_testproject_2",
+  "bugs": "https://github.com/tssuite/ts_testproject_2/issues",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tssuite/ts_testproject_2.git"
+  },
+  "main": "dist/template-project.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "vite build && tsc && node dna/scripts/copy-readme-to-dist.js && node dna/scripts/copy-example-to-dist.js",
+    "test": "vitest run --coverage && pnpm run lint",
+    "prebuild": "npm run test",
+    "prepublishOnly": "npm run build",
+    "lint": "eslint",
+    "updateGoldens": "cross-env UPDATE_GOLDENS=true pnpm test"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@typescript-eslint/eslint-plugin": "^8.60.1",
+    "@typescript-eslint/parser": "^8.60.1",
+    "@vitest/coverage-v8": "^4.1.8",
+    "cross-env": "^10.1.0",
+    "eslint": "^10.4.1",
+    "eslint-plugin-jsdoc": "^63.0.1",
+    "eslint-plugin-tsdoc": "^0.5.2",
+    "globals": "^17.6.0",
+    "jsdoc": "^4.0.5",
+    "read-pkg": "^10.1.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.60.1",
+    "vite": "^8.0.16",
+    "vite-node": "^6.0.0",
+    "vite-plugin-dts": "^5.0.2",
+    "vite-tsconfig-paths": "^6.1.1",
+    "vitest": "^4.1.8",
+    "vitest-dom": "^0.1.1"
+  },
+  "packageManager": "pnpm@11.5.1+sha512.93f7b57422ea7068257235b4c16eb60762eb68e1dc23723199cc739043ea9be2c4143274a399d8c6defa2b1176226d9ca1c4b63482d6200c1a8fbaa78c1d1485"
+}

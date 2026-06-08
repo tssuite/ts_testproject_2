@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@tssuite/ts_testproject_3':
+        specifier: file:../ts_testproject_3
+        version: file:../ts_testproject_3
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -311,6 +315,10 @@ packages:
 
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
+
+  '@tssuite/ts_testproject_3@file:../ts_testproject_3':
+    resolution: {directory: ../ts_testproject_3, type: directory}
+    engines: {node: '>=22.14.0'}
 
   '@tybys/wasm-util@0.10.2':
     resolution: {integrity: sha512-RoBvJ2X0wuKlWFIjrwffGw1IqZHKQqzIchKaadZZfnNpsAYp2mM0h36JtPCjNDAHGgYez/15uMBpfGwchhiMgg==}
@@ -1621,6 +1629,8 @@ snapshots:
   '@sindresorhus/base62@1.0.0': {}
 
   '@standard-schema/spec@1.1.0': {}
+
+  '@tssuite/ts_testproject_3@file:../ts_testproject_3': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:

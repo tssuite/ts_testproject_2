@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/ts_testproject_3':
-        specifier: git+https://github.com/tssuite/ts_testproject_3.git
-        version: https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/b5c0ac7fdda845a241d15a4f036db372bb9a4e2f
+        specifier: git+ssh://git@github.com/tssuite/ts_testproject_3.git#semver:^0.1.3
+        version: https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/c0ff8334a21b021a7c53acb29c3482c0d54684fc
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -316,9 +316,9 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tssuite/ts_testproject_3@https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/b5c0ac7fdda845a241d15a4f036db372bb9a4e2f':
-    resolution: {gitHosted: true, integrity: sha512-OxqpvI6x1wrtFAdTNZQ7qkrjo/P4essfph4bPe/OO/NRJOZurszptiwDv3rr96iEj3oWjQaaG6/PyjHcU/yprQ==, tarball: https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/b5c0ac7fdda845a241d15a4f036db372bb9a4e2f}
-    version: 0.1.0
+  '@tssuite/ts_testproject_3@https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/c0ff8334a21b021a7c53acb29c3482c0d54684fc':
+    resolution: {gitHosted: true, integrity: sha512-l6rQO+uyoZGQeBptQczOIYCFnzCAYClIiMzWzI9J+yuVaj6IcpVw8Q4INY+2f5ziEun2mSFo2ILPfNezXWsE3g==, tarball: https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/c0ff8334a21b021a7c53acb29c3482c0d54684fc}
+    version: 0.1.3
     engines: {node: '>=22.14.0'}
 
   '@tybys/wasm-util@0.10.2':
@@ -1631,7 +1631,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tssuite/ts_testproject_3@https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/b5c0ac7fdda845a241d15a4f036db372bb9a4e2f': {}
+  '@tssuite/ts_testproject_3@https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/c0ff8334a21b021a7c53acb29c3482c0d54684fc': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:

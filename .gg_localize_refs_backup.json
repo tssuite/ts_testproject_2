@@ -1,1 +1,1 @@
-{"@tssuite/ts_testproject_3":"git+ssh://git@github.com/tssuite/ts_testproject_3.git#semver:^0.1.4"}
+{"@tssuite/ts_testproject_3":"file:../ts_testproject_3"}

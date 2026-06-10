@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tssuite/ts_testproject_3':
-        specifier: file:../ts_testproject_3
-        version: file:../ts_testproject_3
+        specifier: git+ssh://git@github.com/tssuite/ts_testproject_3.git#test-2
+        version: https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/33f29fb014aa95856d853244e79f6224b6788679
     devDependencies:
       '@types/node':
         specifier: ^25.9.1
@@ -316,8 +316,9 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tssuite/ts_testproject_3@file:../ts_testproject_3':
-    resolution: {directory: ../ts_testproject_3, type: directory}
+  '@tssuite/ts_testproject_3@https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/33f29fb014aa95856d853244e79f6224b6788679':
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/33f29fb014aa95856d853244e79f6224b6788679}
+    version: 0.1.4
     engines: {node: '>=22.14.0'}
 
   '@tybys/wasm-util@0.10.2':
@@ -1630,7 +1631,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tssuite/ts_testproject_3@file:../ts_testproject_3': {}
+  '@tssuite/ts_testproject_3@https://codeload.github.com/tssuite/ts_testproject_3/tar.gz/33f29fb014aa95856d853244e79f6224b6788679': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:

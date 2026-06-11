@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@tssuite/ts_testproject_3':
+      '@tssuite/testproject_3':
         specifier: file:../testproject_3
         version: file:../testproject_3
     devDependencies:
@@ -316,7 +316,7 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@tssuite/ts_testproject_3@file:../testproject_3':
+  '@tssuite/testproject_3@file:../testproject_3':
     resolution: {directory: ../testproject_3, type: directory}
     engines: {node: '>=22.14.0'}
 
@@ -1630,7 +1630,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@tssuite/ts_testproject_3@file:../testproject_3': {}
+  '@tssuite/testproject_3@file:../testproject_3': {}
 
   '@tybys/wasm-util@0.10.2':
     dependencies:
